@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  postgres_ttree:
+    build: .
+    container_name: pg_ttree_container
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ttree_db
+    volumes:
+      - .:/usr/src/ttree
+    ports:
+      - "5432:5432"
