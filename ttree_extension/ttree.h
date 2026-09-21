@@ -36,4 +36,9 @@ bool ttree_search(const TTree *tree, KeyType key);
 /* Módulo Integrante 3: Firma requerida para ttree_build */
 bool ttree_insert(TTree *tree, KeyType key);
 
+/* Altura de NULL = 0; altura de una hoja = 1. */
+int ttree_height(const TTreeNode* node);
+void ttree_update_height(TTreeNode* node);
+int ttree_balance_factor(const TTreeNode* node);
+TTreeNode* ttree_rebalance(TTreeNode* node);
 #endif
