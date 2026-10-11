@@ -1,0 +1,18 @@
+services:
+  db:
+    build: .
+    environment:
+      POSTGRES_USER: proyecto
+      POSTGRES_PASSWORD: proyecto_local
+      POSTGRES_DB: proyecto
+    ports:
+      - "127.0.0.1:5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U proyecto -d proyecto"]
+      interval: 2s
+      timeout: 3s
+      retries: 30
+volumes:
+  pgdata:

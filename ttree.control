@@ -1,0 +1,4 @@
+comment = 'T-Tree académico en C: claves INTEGER únicas, estado por transacción'
+default_version = '1.0'
+module_pathname = '$libdir/ttree'
+relocatable = true
