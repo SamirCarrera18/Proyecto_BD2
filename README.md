@@ -181,6 +181,3 @@ Esta implementación es académica y **no es un método de acceso nativo** de Po
 - Compilación PGXS: https://www.postgresql.org/docs/18/extend-pgxs.html
 - Docker: https://docs.docker.com/get-started/docker-overview/
 
-Se implementan los algoritmos en este proyecto; no se incorporó código de una
-biblioteca externa de árboles. Las referencias explican el diseño, no sustituyen
-la revisión y comprensión del equipo.
