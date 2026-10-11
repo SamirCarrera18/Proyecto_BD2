@@ -1,2 +1,6 @@
-.DS_Store
-ttree_test
+build/
+*.o
+*.bc
+*.so
+__pycache__/
+results/

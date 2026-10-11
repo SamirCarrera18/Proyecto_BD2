@@ -1,0 +1,5 @@
+OK: capacidad=2; orden ascendente, descendente, aleatorio, rangos, extremos, duplicados y fallos de memoria.
+OK: capacidad=3; orden ascendente, descendente, aleatorio, rangos, extremos, duplicados y fallos de memoria.
+OK: capacidad=4; orden ascendente, descendente, aleatorio, rangos, extremos, duplicados y fallos de memoria.
+OK: capacidad=16; orden ascendente, descendente, aleatorio, rangos, extremos, duplicados y fallos de memoria.
+OK: capacidad=64; orden ascendente, descendente, aleatorio, rangos, extremos, duplicados y fallos de memoria.
